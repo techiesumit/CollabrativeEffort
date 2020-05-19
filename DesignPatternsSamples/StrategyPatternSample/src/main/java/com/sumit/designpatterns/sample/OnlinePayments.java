@@ -14,8 +14,8 @@ public class OnlinePayments implements PayStrategy{
     private boolean signedIn;
 
     static {
-        DATA_BASE.put("pass1234", "amanda@ya.com");
-        DATA_BASE.put("pass1234", "john@amazon.eu");
+        DATA_BASE.put("user1@mail.com","pass1234");
+        DATA_BASE.put("user2@mail.com","pass1234");
     }
 
     /**
@@ -41,7 +41,7 @@ public class OnlinePayments implements PayStrategy{
     }
 
     private boolean verify() {
-        setSignedIn(email.equals(DATA_BASE.get(password)));
+        setSignedIn(password.equals(DATA_BASE.get(email)));
         return signedIn;
     }
 

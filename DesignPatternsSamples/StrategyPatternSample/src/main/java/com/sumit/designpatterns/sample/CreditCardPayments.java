@@ -24,9 +24,6 @@ public class CreditCardPayments implements PayStrategy{
             System.out.print("Enter the CVV code: ");
             String cvv = READER.readLine();
             card = new CreditCard(number, date, cvv);
-
-            // Validate credit card number...
-
         } catch (IOException ex) {
             ex.printStackTrace();
         }
