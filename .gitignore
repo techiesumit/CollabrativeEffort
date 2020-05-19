@@ -40,3 +40,8 @@ transaction.log
 .pydevproject
 
 *.*~
+gs-testing-web/
+powermock-examples-maven/
+spring-boot-samples-kapil/
+SpringRestcodes/
+tutorials/
