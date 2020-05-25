@@ -23,7 +23,7 @@ public class CreditCardPayments implements PayStrategy{
             String date = READER.readLine();
             System.out.print("Enter the CVV code: ");
             String cvv = READER.readLine();
-            card = new CreditCard(number, date, cvv);
+            card = CreditCard.newCreditCard(number, date, cvv);
         } catch (IOException ex) {
             ex.printStackTrace();
         }

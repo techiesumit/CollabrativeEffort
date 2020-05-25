@@ -3,13 +3,8 @@ package com.sumit.designpatterns.model;
 import com.sumit.designpatterns.sample.PayStrategy;
 
 public class Orders {
-    private int totalCost = 0;
-    private boolean isClosed = false;
-
-    public void processOrder(PayStrategy strategy) {
-        strategy.collectPaymentDetails();
-        // Here we could collect and store payment data from the strategy.
-    }
+    private int totalCost;
+    private boolean isClosed;
 
     public void setTotalCost(int cost) {
         this.totalCost += cost;

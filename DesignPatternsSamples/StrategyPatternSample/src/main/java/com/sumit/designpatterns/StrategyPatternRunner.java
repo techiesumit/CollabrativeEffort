@@ -61,7 +61,8 @@ public class StrategyPatternRunner {
                     // Order object delegates gathering payment data to strategy
                     // object, since only strategies know what data they need to
                     // process a payment.
-                    order.processOrder(strategy);
+                        strategy.collectPaymentDetails();
+                        // Here we could collect and store payment data from the strategy.
 
                     System.out.print("Pay " + order.getTotalCost() + " units or Continue shopping? P/C: ");
                     String proceed = reader.readLine();
