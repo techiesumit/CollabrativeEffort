@@ -1,4 +1,4 @@
-package com.sumit.example.strategy.service.mysql;
+package com.sumit.example.strategy.service;
 
 import com.sumit.example.strategy.service.BookService;
 import com.sumit.example.strategy.service.data.BookMockData;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sumit.example.strategy.service.mongodb;
+package com.sumit.example.strategy.service;
 
 import com.sumit.example.strategy.service.BookService;
 import com.sumit.example.strategy.service.data.BookMockData;
