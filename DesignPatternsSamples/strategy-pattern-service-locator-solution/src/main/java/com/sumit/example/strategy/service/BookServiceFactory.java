@@ -15,5 +15,7 @@ public class BookServiceFactory implements BookServiceProvider {
         //?? how to implement this , best possible manner.
         return serviceProviders.stream().filter(getInstanceOf(provider)).findFirst();
     }
-
+    private Predicate<BookServiceProvider> getInstanceOf(String providerType){
+        return sp->sp.
+    }
 }
