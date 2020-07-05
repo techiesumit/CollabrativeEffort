@@ -45,6 +45,5 @@ powermock-examples-maven/
 spring-boot-samples-kapil/
 SpringRestcodes/
 tutorials/
-DesignPatternsSamples/springfactory/.mvn/wrapper/MavenWrapperDownloader.java
-DesignPatternsSamples/springfactory/.mvn/wrapper/maven-wrapper.properties
-DesignPatternsSamples/springfactory/.mvn/wrapper/maven-wrapper.jar
+.metadata/
+.mvn/*.*
